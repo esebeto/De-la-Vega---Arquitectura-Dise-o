@@ -1,0 +1,266 @@
+/* REDES SOCIALES*/
+
+.socialnet{
+	padding-bottom: 50px;
+
+}
+
+.socialnet i{
+	color: #fff;
+	padding-left: 10px;
+	font-size: 20px;
+}
+
+
+.item,
+.item-hover,
+.item-hover .mask,
+.item-info {
+	position: relative;
+	margin: 0 0 20px;
+	width: 100%;
+	height: 100%;	
+	top:0;
+	left:0;	
+	text-align:center;
+float:left;
+margin:5px;
+}
+
+	
+.item-type-line .item-hover {	
+z-index:100;	
+-webkit-transition: all 300ms ease-out;
+-moz-transition: all 300ms ease-out;
+-o-transition: all 300ms ease-out;
+transition: all 300ms ease-out;	
+opacity:0;
+cursor:pointer;						
+display:block;
+text-decoration:none;
+text-align:center;
+}
+			
+.item-type-line .item-info {
+z-index:10;
+color:#ffffff;
+display:table-cell;
+vertical-align:middle;
+position:relative;
+z-index:5;				 					
+}
+			
+.item-type-line .item-info .headline {
+font-size:18px;		
+color:#000;
+}
+				
+.item-type-line .item-info .line {
+height:1px;
+width:0%;
+margin:15px auto;
+background-color:#000;
+-webkit-transition: all 500ms ease-out;
+-moz-transition: all 500ms ease-out;
+-o-transition: all 500ms ease-out;
+transition: all 500ms ease-out;					 
+}
+				
+.item-type-line .item-info .date{
+font-size:12px;
+}
+				
+.item-type-line .item-hover .mask {
+background-color:#e0dede;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+filter: alpha(opacity=90);										
+opacity:0.7;
+z-index:0;
+}
+				
+.item-type-line .item-hover:hover .line {
+width:40%;
+}
+				
+.item-type-line .item-hover:hover {
+opacity:1;
+}				
+			
+.item-img {			
+background-color:#7a548f;
+z-index:0;	
+width: 100%;
+	height: 100%;		
+}
+
+
+.contenedor{
+	background-color: #FAFAFA;
+}
+
+.module-main
+{
+	padding: 110px 0 40px 0;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+.module-contact
+{
+	padding: 160px 0 80px 0;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+/* HOVER IMAGEN */
+.hover-img figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover-img figure:hover img {
+	opacity: .5;
+}
+
+.hover-img div {
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+}
+.hover-img div:first-child {
+	margin-left: 0;
+}
+
+.hover-img div span {
+	position: relative;
+	left: 60px;
+	z-index: 1000;
+	display: block;
+	margin-top: -450px;
+	padding: 0;
+	color: #000000;
+	font-size: 50px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+	opacity: 0;
+}
+
+
+.hover-img figure:hover+span {
+	bottom: 36px;
+	opacity: 1;
+	color: #ffffff;
+	font-size: 50px;
+}
+
+/* LINKS PREVIOUS */
+.prev_next_links.type {
+	margin-bottom:5px;
+	padding-bottom:5px;
+}
+
+.prev_next_links.type a {
+	font-size:13px;
+	text-transform:uppercase;
+}
+
+
+.prev_next_links.type2 {
+	margin-bottom:15px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border:1px #dddddd solid;
+	border-right:none;
+	border-left:none;
+	border-top:none;
+}
+
+.prev_next_links.type2 a {
+	font-size:13px;
+	text-transform:uppercase;
+}
+
+.prev_next_links a i {
+	font-size:15px;
+	font-weight:normal;
+}
+
+.prev_next_links .fleft i {
+	padding-right:10px;
+}
+
+.prev_next_links .fright i {
+	padding-left:10px;
+}
+
+.fleft {
+	float:left;
+}
+
+.fright {
+	float:right;
+}
+
+.clear {
+	clear:both;
+	height:0;
+	font-size:0
+}
+
+
+/* FOOTER */
+
+.foot{
+	background:rgba(131, 131, 131, 0.9);
+	padding-top: 30px;
+
+}
+
+.foot img{
+	margin-top: -40px;
+	width: 80%;
+
+}
+
+.foot p {
+	color: white;
+	font-size: 10px;
+
+}
+
+.foot h5{
+	font-size: 16px;
+	color: white;
+}
+
+
+
+@media (max-width: 990px) {
+	.foot img{
+	margin-top: -30px;
+	width: 100%;
+}
+
+}
+
+@media (max-width: 700px) {
+	.foot img{
+		margin-left: -10px;
+		width: 50%;
+}
+
+}
