@@ -14,7 +14,7 @@
                     <div class="clear"></div>
                 </div>
 				<div class="row">
-					<div class="col-sm-12">
+					<div class="col-sm-12 col-md-12 col-lg-12">
 						<div class="image-caption">
 						<a href="assets/images/content/residencial/reforma/1.png" class="gallery">
 							<img src="assets/images/content/residencial/reforma/1.png"></a>
@@ -22,13 +22,13 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-9">
+					<div class="col-sm-9 col-md-9 col-lg-9">
 						<div class="image-caption">
 						<a href="assets/images/content/residencial/reforma/3.png" class="gallery">
 							<img src="assets/images/content/residencial/reforma/3.png"></a>
 						</div>
 					</div>
-					<div class="col-sm-3">
+					<div class="col-sm-3 col-md-3 col-lg-3">
 						<div class="image-caption">
 						<a href="assets/images/content/residencial/reforma/2.png" class="gallery">
 							<img src="assets/images/content/residencial/reforma/2.png"></a>
